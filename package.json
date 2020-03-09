@@ -1,0 +1,27 @@
+{
+  "name": "api_testing_framework",
+  "version": "1.0.0",
+  "description": "API Testing Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 15000 --reporter mochawesome --reporter-options reportDir=test-report,reportFilename=testResults,autoOpen=true"
+  },
+  "author": "Momin",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "mocha-each": "^2.0.1",
+    "mochawesome": "^4.1.0",
+    "request": "^2.88.2",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "it-each": "^0.4.0",
+    "jsonfile-updater": "^3.1.0",
+    "jsonschema": "^1.2.5",
+    "update-json-file": "^1.1.1"
+  }
+}
